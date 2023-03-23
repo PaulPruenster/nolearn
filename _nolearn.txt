@@ -1,0 +1,18 @@
+sochen de men no lernen mues
+
+3 states:
+gor net glernt,
+teilweise,
+done,
+
+views,
+baum und 3 listen nebeneinander,
+
+mit + und - changen wie guet men sochen glernt hot.
+
+verschieb also di sochen in di listen.
+
+pro follder mochts a savefile des "nolearn" hoest wo olle sochen drin sein
+
+magari zentral olle nolearn files suechen schunscht holt in dor folder ausführen und wenn no koens isch nolearn
+frogen obmen a nuis mochen will so git ortig
