@@ -1,1 +1,1 @@
-{"learning_list": [], "current_index": -1, "states": ["todo", "seen", "done"]}
+{"learning_list": [{"item": "sdaf", "state": "todo"}], "current_index": 0, "states": ["todo", "seen", "done"]}

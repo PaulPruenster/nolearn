@@ -49,7 +49,7 @@ def main(stdscr):
                 elif item['state'] == 'done':
                     stdscr.addstr(i + 1, 0, f"({item['state']}) {item['item']}", curses.color_pair(3))
 
-        stdscr.addstr(len(learning_list)+1, 0, "Press 'a' to add an item, 'd' to delete an item, 'q' to quit")
+        stdscr.addstr(len(learning_list)+2, 0, "Press 'a' to add items, '+' and '-' to change status, 'd' to delete, 'q' to quit")
         stdscr.refresh()
 
         key = stdscr.getch()
@@ -60,7 +60,7 @@ def main(stdscr):
                 json.dump(data, f)
             break
         elif key == ord("a"):
-            stdscr.addstr(len(learning_list)+2, 0, "Enter the item:")
+            stdscr.addstr(len(learning_list)+4, 0, "Enter the item: ")
             stdscr.refresh()
             curses.echo()
             item = stdscr.getstr().decode("utf-8")
